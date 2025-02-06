@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./detalebi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="hederi">
+        <div class="hederi1">
+            <i class="fa-solid fa-hotel"></i>
+            <h1 class="logo" >STARHOTEL</h1>
+        </div>
+        <div class="hederi1">
+            <button onclick="btn0()" class="btn0">Home</button>
+            <button  onclick="btnrooms()"  class="btn1">Rooms</button>
+            <button  onclick="btn2()" class="btn2">Hotels</button>
+            <button onclick="btn3()" class="btn3">Booked Rooms</button>
+        </div>
+       </div>
+    
+    <section>
+
+        <form onsubmit="book(event)">
+            <div class="reserv">
+                <label for="">Chek In</label>
+                <input type="date" name="checkInDate" id="">
+            </div>
+            <div class="reserv">
+                <label for="">Chek Out</label>
+                <input type="date" name="checkOutDate" id="">
+            </div>
+            <div class="reserv">
+                <label for="">Customer Name</label>
+                <input type="text" name="customerName" id="">
+            </div>
+            <div class="reserv">
+                <label for="">Customer Phone</label>
+                <input type="text" name="customerPhone" id="">
+            </div>
+            <button type="submit">Book</button>
+
+        </form>
+
+    </section>
+
+
+    <script src="./detalebi.js"></script>
+</body>
+</html>

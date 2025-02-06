@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./rooms.css">
+
+</head>
+<body>
+
+    <div class="hederi">
+        <div class="hederi1">
+            <i class="fa-solid fa-hotel"></i>
+            <h1 class="logo" >STARHOTEL</h1>
+            <i onclick="fa()" class="fa-solid fa-bars"></i>
+        </div>
+        <div class="hederi11">
+            <button onclick="btn0()" class="btn0">Home</button>
+            <button class="btn1">Rooms</button>
+            <button onclick="btn2()" class="btn2">Hotels</button>
+            <button onclick="btn3()"class="btn3">Booked Rooms</button>
+        </div>
+       </div>
+       <div class="bar">
+        <a class="bar1" href="./index.html">Home</a>
+        <a class="bar1" href="">Rooms</a>
+        <a class="bar1" href="./hotels.html">Holets</a>
+        <a class="bar1" href="./booked.html">Booker Rooms</a>        
+    </div> 
+
+       <form onsubmit="sub(event)">
+            <select name="roomTypeId">
+                <option value="">choose</option>
+                <option  value="1">Single room</option>
+                <option  value="2">Double room</option>
+                <option  value="3">Deluxe room</option>
+              </select>
+              <div class="check1">
+                <label for="">Check in</label>
+                <input name="checkIn"type="date">
+              </div>
+              <div class="check2">
+                <label for="">Check out</label>
+                <input name="checkOut" type="date">
+              </div>
+              <div class="price">
+                <label for="">price from</label>
+                <input name="priceFrom" type="text">
+              </div>
+              <div class="price1">
+                <label for="">price to</label>
+                <input name="priceTo" type="text">
+              </div>
+              <button id="but" type="submit">filter</button>         
+              <button  type="reset" class="reset" >reset</button>
+       </form>
+    
+
+    <section></section>
+
+    <script src="./rooms.js"></script>
+</body>
+</html>

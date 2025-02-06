@@ -1,0 +1,161 @@
+
+
+.hederi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+.hederi1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.fa-solid {
+    font-size: 25px;
+    color: rgb(92, 92, 195);
+}
+.logo{
+    font-family: 'roboto', sans-serif;
+    
+}
+
+.btn0{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-color: transparent;
+}
+.btn0:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+
+.btn1{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-color: transparent;
+}
+.btn1:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+.btn2{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-color: transparent;
+}
+.btn2:hover{
+    background-color: rgb(202, 202, 239);
+}
+
+.btn3{
+    background-color: transparent;
+    cursor: pointer;
+    width: 120px;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.btn3:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    gap: 50px;
+    
+}
+
+.check{
+    display: flex;
+    gap: 80px;
+    font-size: 12px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+}
+
+
+
+
+ .room{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+     
+ }
+
+ .booking{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+ }
+
+ section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ .tree{
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    gap: 50px;
+ }
+ 
+
+ .total1{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    
+ }
+
+ .total1 button{
+    background-color: rgb(220, 97, 97);
+    border-color: rgb(220, 97, 97);
+    height: 25px;
+ }
+ .total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(246, 241, 241);
+    
+ }
+
+ .butbut{
+    width: 100px;
+    height: 20px;
+    font-size: 9px;
+    
+ }

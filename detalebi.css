@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+   
+}
+
+.hederi{    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+
+.hederi1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fa-solid {
+    font-size: 25px;
+    color: rgb(92, 92, 195);
+}
+.logo{
+    font-family: 'roboto', sans-serif;    
+}
+
+.btn0{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-color: transparent;
+}
+.btn0:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+
+.btn1{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-color: transparent;
+}
+.btn1:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+.btn2{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    border-color: transparent;
+}
+.btn2:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+
+.btn3{
+    background-color: transparent;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.btn3:hover{
+    background-color: rgb(202, 202, 239);
+
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
